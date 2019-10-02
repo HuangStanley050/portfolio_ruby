@@ -1,0 +1,89 @@
+/* reusable css component for containers */
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-image: url("../assets/blogBackground.jpeg");
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-container__content {
+  min-height: 80vh;
+  width: 60%;
+  background-color: var(--secondaryColor);
+  padding: 2rem;
+}
+
+.about-container {
+  width: 80%;
+  display: flex;
+  margin: 3rem auto;
+  min-height: 50vh;
+  border-radius: 5px;
+  background: var(--secondaryColor);
+  justify-content: center;
+  align-items: center;
+}
+
+.container-resume {
+  width: 80%;
+  display: flex;
+  margin: 3rem auto;
+  min-height: 60vh;
+  border-radius: 5px;
+  background: var(--secondaryColor);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+.container-contact {
+  width: 80%;
+  margin: 3rem auto;
+  border-radius: 5px;
+  background-color: var(--secondaryColor);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-container-hero {
+  width: 80%;
+  margin: 3rem auto;
+  min-height: 60vh;
+  border-radius: 5px;
+}
+
+.portfolio-container__skills {
+  width: 80%;
+  margin: 3rem auto;
+  padding: 1rem;
+  min-height: 60vh;
+  border-radius: 5px;
+  display: flex;
+  background-color: var(--secondaryColor);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-blog {
+  width: 80%;
+  display: flex;
+  margin: 3rem auto;
+  min-height: 60vh;
+  border-radius: 5px;
+  background: var(--secondaryColor);
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}

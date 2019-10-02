@@ -1,0 +1,89 @@
+/* reusable nav component for css*/
+nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav {
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+.mobile-nav__container {
+  display: none;
+}
+
+.mobile-nav {
+  font-size: 2rem;
+  background-color: var(--secondaryColor);
+}
+
+.mobile-nav i {
+  display: block;
+  cursor: pointer;
+}
+
+.mobile-nav a {
+  display: block;
+  color: var(--textColor);
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 2.5px 0;
+  transition: 0.5s ease-in;
+}
+
+.mobile-nav__container a:hover {
+  background: orange;
+  text-decoration: underline;
+}
+
+.active_link {
+  text-decoration: underline;
+  color: #db3b46;
+}
+
+.nav-normal {
+  height: 10vh;
+  background-color: var(--secondaryColor);
+  margin: 0;
+  width: 100%;
+}
+
+.nav-normal a i {
+  color: var(--primaryColor);
+}
+
+.nav-normal a {
+  margin-bottom: 1rem;
+}
+
+nav i {
+  margin-right: 0.75rem;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 2rem;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  font-size: 2rem;
+  color: white;
+  transition: 0.75s linear;
+}
+
+li a:hover {
+  color: blue;
+  background-color: #4973e6;
+  border-radius: 15px;
+}
+
+a i {
+  color: var(--secondaryColor);
+}

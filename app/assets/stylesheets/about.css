@@ -1,0 +1,37 @@
+.about-container__skills {
+  justify-content: space-around;
+  flex-direction: flex-start;
+  flex-wrap: wrap;
+}
+
+.photo_wrapper {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  margin: 1rem;
+}
+
+.photo_wrapper img {
+  width: 400px;
+  height: 300px;
+  margin-top: 0;
+  border-radius: 50%;
+}
+
+.about__wrapper-text {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.about__wrapper-text p {
+  margin: 1rem 0.5rem;
+  font-size: 1rem;
+  color: var(--textColor);
+}
+
+.container-card i,
+.container-card p {
+  font-size: 2rem;
+}

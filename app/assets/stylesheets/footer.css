@@ -1,0 +1,30 @@
+/* reusable footer css component */
+.footer-style {
+  text-align: center;
+  margin: 0 0.5rem;
+  color: var(--textColor);
+}
+
+.footer-style a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  background-color: var(--secondaryColor);
+}
+
+.footer-wrapper {
+  height: 100%;
+  width: 30vw;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.footer-wraper > h2 {
+  margin: 0 1rem;
+}

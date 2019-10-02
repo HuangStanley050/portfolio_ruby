@@ -1,0 +1,29 @@
+.portfolio-hero {
+  width: 100%;
+  min-height: 30vh;
+}
+
+.portfolio-container__skills-category {
+  width: 80%;
+  height: 33.3%;
+  background-color: var(--primaryColor);
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.header_emphasis {
+  text-decoration: underline;
+}
+
+.project_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+
+.container-card p a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}

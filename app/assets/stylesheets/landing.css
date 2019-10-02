@@ -1,0 +1,31 @@
+.heroImage {
+  background-image: url("../assets/heroImage-min.jpg");
+  /* Set a specific height */
+  min-height: 100vh;
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+}
+
+.hero-thumb {
+  color: #0339fc;
+}
+
+.btn-landing a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}

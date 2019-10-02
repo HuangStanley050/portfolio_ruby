@@ -1,0 +1,21 @@
+.container-contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.container-contact label {
+  font-size: 2rem;
+  color: var(--textColor);
+  display: inline-block;
+}
+
+form input,
+form textarea {
+  width: 50%;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+}
