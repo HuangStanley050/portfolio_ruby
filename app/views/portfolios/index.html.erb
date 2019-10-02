@@ -1,7 +1,54 @@
-<head>
-  <title>Site</title>
-  <%= stylesheet_link_tag "landing.css" %>
-  <%= csrf_meta_tags %>
-</head>
-<%= render "shared/top_nav" %>
-<h1>Index page</h1>
+<main>
+  <section alt="hero_backgroundImage" class="heroImage">
+    <div id="hamburger" class='mobile-nav'>
+      <!-- navbar element for mobile hidden on normal view --->
+      <i class='fas fa-bars'></i>
+      <div class='mobile-nav__container'>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./blogs.html">Blogs</a>
+      </div>
+    </div>
+    <nav>
+      <!-- normal navbar for desktop, tablet --->
+      <li>
+        <a href="./index.html">
+          <i class="fas fa-home"></i>Home</a>
+      </li>
+      <li>
+        <a href="./about.html">
+          <i class="far fa-user"></i>About</a>
+      </li>
+      <li>
+        <a href="./portfolio.html">
+          <i class="fas fa-briefcase"></i>Portfolio</a>
+      </li>
+      <li>
+        <a href="./resume.html">
+          <i class="fas fa-file-alt"></i>Resume</a>
+      </li>
+      <li>
+        <a href="./contact.html">
+          <i class="fas fa-mobile-alt"></i>Contact</a>
+      </li>
+      <li>
+        <a href="./blogs.html">
+          <i class="fas fa-blog"></i>Blog
+        </a>
+      </li>
+    </nav>
+    <section class="hero-text">
+      <!--1. Create FOUR components using HTML and CSS to contain graphical content that are appropriate for audience.-->
+      <!--1. Create FOUR components which contain text content that are styled appropriately for audience.-->
+      <h1 class="animated rubberBand delay-2s">Hi I am Stanley</h1>
+      <p>Your next Fullstack Software Engineer</p>
+      <i class="far fa-thumbs-up hero-thumb"></i>
+      <button class="btn-landing">
+        <a href="./contact.html">Let's talk</a>
+      </button>
+    </section>
+  </section>
+</main>
