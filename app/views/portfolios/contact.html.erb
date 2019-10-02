@@ -1,2 +1,15 @@
 <%= render "shared/top_nav" %>
-<h1>contact</h1>
+<main>
+  <h1 class='header-style'>Contact</h1>
+  <section class='container-contact animated fadeInLeft delay-1s'>
+    <form action="https://formspree.io/huang.stanley050@gmail.com" method="POST">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label class='animated swing delay-2s' for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:5rem"></textarea>
+      <input class='contact-submit__button' type="submit" value="Submit">
+    </form>
+  </section>
+</main>
